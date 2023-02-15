@@ -158,7 +158,7 @@ body {
 
   
   /********** Story *************/
-  
+
   .bubbles{
     background-image: url("/Assignment/Images/bubbles.png");
     background-size: 47rem;
@@ -167,13 +167,13 @@ body {
     width: auto;
     height: 15rem;  
     border: 1px solid transparent;
-
   }
 
   .story {
-
     border: 1px solid transparent;
     background-color: #f8dcdd;
+    margin-top: 0rem;
+    margin-right: auto;
   }
 
   .textbox{
@@ -184,10 +184,13 @@ body {
     width: 20rem;
 
     background-color: #fffaf5;
-    border: 0.5rem solid #bb5a73;
+    border: 1rem solid #bb5a73;
     padding-left: .3rem;
     padding-right: .3rem;
+    margin-left: auto;
+    margin-right: auto;
 
+    transform: translate(48%, -9rem); 
   }
 
   .textbox h2{
@@ -199,30 +202,33 @@ body {
   .textbox p{
     font-size: 0.7rem;
     text-align: center;
-
   }
 
   .story--flex--image1{
-/*  transform: translate(50%, 1rem); */
+    transform: translate(-47.5%, -19rem); 
     background-image: url("/Assignment/Images/download\ \(1\).jpg");
     background-size: 21rem;
 
     width: 20.6rem;
     height: 14rem;
 
-    border: 0.5rem solid #ddc4a6;
+    border: 1rem solid #ddc4a6;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .story--flex--image2{
-/*  transform: translate(50%, 1rem); */
+    transform: translate(7rem,21rem); 
 
     background-image: url("/Assignment/Images/download\ \(2\).jpg");
-    background-size: 21rem;
+    background-size: 24rem;
 
     width: 20.6rem;
     height: 14rem;
 
-    border: 0.5rem solid #b59b79;
+    border: 1rem solid #b59b79;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .bubbles2{
@@ -232,5 +238,71 @@ body {
     background-position: 50% 50%;
     height: 12.6rem;  
     border: 1px solid transparent;
+  }
 
+    /********** Specials *************/
+  .Specials{
+    background-color: #fffaf5;
+    border: 1px solid transparent;
+
+  }
+
+  .Specials h2{
+padding: 2rem;
+
+  }
+
+  .Specials--section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding: 1rem;
+  }
+
+  .Forbidden--Butter{
+    background-image: url("/Assignment/Images/Untitled-2.png");
+    background-size: 10rem;
+
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+    height: 10rem;  
+    width:10rem;
+    transform: translate(0,-2.2rem); 
+
+  }
+
+  .Specials--section1--left{
+    display: flex;
+    flex-direction: column;
+
+    width: 25rem;
+    text-align: center;
+
+    background-color: #f8dcdd;
+  }
+
+  .Specials--section1 h6{
+    display: flex;
+    background-color: #bb5a73;
+    border: 1px solid #bb5a73;
+    border-radius: 30%;
+    font-size: 1rem;
+
+    width: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    transform: translate(0,-2rem); 
+  }
+
+  .Specials--section1 h3{
+    transform: translate(0,1rem); 
+  }
+
+  .Specials--section1 h4{
+    transform: translate(0,-1.5rem); 
+    margin: 1rem;
   }
