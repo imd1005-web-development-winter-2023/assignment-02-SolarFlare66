@@ -175,7 +175,6 @@ body {
     flex-direction: column;
 
     width: 20rem;
-
     background-color: #fffaf5;
     border: 1rem solid #bb5a73;
     padding-left: .3rem;
@@ -239,7 +238,6 @@ body {
   .Specials{
     background-color: #fffaf5;
     border: .1px solid transparent;
-    
   }
 
   .Specials h2{
@@ -304,6 +302,11 @@ body {
     margin: 1rem;
   }
 
+  .Specials--section2{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .Specials--image2{
     background-image: url("/Assignment/Images/Untitled-3.png");
     background-size: 46.8rem;
@@ -313,12 +316,213 @@ body {
 
     width: 46.8rem; 
     height: 11.6rem;
+    border: .1px solid transparent;
   }
 
-  .Specials--section3{
+  .Specials--image3{
+    background-image: url("/Assignment/Images/Untitled-4.png");
+    background-size: 46.8rem;
+
     margin-left: auto;
     margin-right: auto;
 
     width: 46.8rem; 
-    height: 11.6rem;
+    height: 15rem;
+
+    border: .1px solid transparent;
+  }
+
+  .Specials--section3{
+    padding:1rem;   
+    padding-bottom:5rem;   
+
+  }
+
+      /********** Cafe *************/
+
+  .Cafe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+
+    border-top: 2rem solid #b59b79;
+    border-bottom: 2rem solid #b59b79;
+
+    background-color: #ddc4a6 ;
+    
+    width: auto; 
+    height: 15.4rem;
+    z-index:0;
+  }
+
+  .Cafe--section1{
+    padding:1rem;
+    color: #bb5a73;
+    border: .2rem solid #000000;
+    background-color: #f8dcdd;
+    border-radius: 10%;
+
+    width: 12rem; 
+    height: 13rem;
+    text-align: center;
+
+  }
+
+  .Cafe--section1 h2{
+    text-decoration-line: underline;  
+
+  }
+
+  .Cafe--section1 p{
+    transform: translate(0,0.5rem); 
+    border: .1rem solid #000000;
+    color: #bb5a73;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 7rem;   
+  
+    font-size: 1rem;
+    font-weight: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+  
+   }
+
+  .Cafe--Bg{
+    background-color: #f8dcdd;
+    opacity: 100%;
+    width: 12rem; 
+    height: 6.5rem;
+    transform: translate(0,1.3rem); 
+    opacity: 70%;
+  }
+
+  .Cafe--section2{
+    padding:1rem;
+    color: #000000;
+    border: .2rem solid #000000;
+    background-image: url("/Assignment/Images/images.jpg");
+    background-position: 50% 50%;
+    background-size: 35rem;
+    border-radius: 10%;
+
+    width: 12rem; 
+    height: 13rem;
+    text-align: center;
+    opacity: 100%;
+
+  }
+
+  .Cafe--section2 h2{
+    text-decoration-line: underline;  
+    opacity: 100%;
+    transform: translate(0,-5.5rem); 
+
+  }
+
+  .Cafe--section2 h3{
+    text-decoration-line: underline;  
+    opacity: 100%;
+    transform: translate(0,-5.5rem); 
+
+  }
+
+ .Cafe--section2 p{
+  transform: translate(0,-3rem); 
+  border: .1rem solid #000000;
+  background-color: #bb5a73;
+  border-radius: 50%;
+  width: 7rem;   
+
+  font-size: 1rem;
+  font-weight: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+
+ }
+
+  .Cafe--section3{
+    padding:1rem;
+    color: #fffaf5;
+    border: .2rem solid #000000;
+    background-color: #bb5a73;
+    border-radius: 10%;
+
+    width: 12rem; 
+    height: 13rem;
+    text-align: center;
+  }
+
+  .Cafe--section3 h2{
+    text-decoration-line: underline;  
+
+  }
+
+  .Cafe--section3 p{
+    transform: translate(0,3rem); 
+    border: .01rem solid transparent;
+    color: #bb5a73;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 7rem;   
+  
+    font-size: 1rem;
+    font-weight: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+  /********** Break *************/
+
+  .Break{
+    height: 1rem;
+  }
+
+  .Break p {
+    opacity: 0%;
+  }
+   
+/********** Form *************/
+
+  .FullForm{
+    justify-content: space-around;
+    border: .01rem solid transparent;
+    background-color: #f8dcdd;
+    width: 46.8rem; 
+    margin-left: auto;
+    margin-right: auto;
+    margin: 2rem;
+  }
+
+/********** Footer *************/
+  .Footer{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EEEEEE;
+    padding: .7rem ;
+  }
+  
+  .Footer--banner {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .Footer--banner--nav ul {
+    display: flex;
+    gap: 2rem;
+
+    list-style-type:none;
+  }
+
+  .Footer--banner--nav li a {
+    color:#123456;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+
+  .container{
+    justify-content: center;
   }
