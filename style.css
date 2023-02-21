@@ -517,6 +517,7 @@ body {
   }
 
   .Footer--banner--nav li a {
+
     color:#123456;
     font-weight: 800;
     text-decoration: none;
@@ -526,3 +527,4 @@ body {
   .container{
     justify-content: center;
   }
+
