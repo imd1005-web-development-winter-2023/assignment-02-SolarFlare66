@@ -73,7 +73,7 @@ body {
   }
   
   .hero--flex--content {
-    background-image: url("/Assignment/Images/assignment2-image1.png");
+    background-image: url("/Images/assignment2-image1.png");
     background-size: 20.1rem;
 
     width: 19.02rem;
@@ -107,7 +107,7 @@ body {
   }
 
   .img--bottom{
-    background-image: url("/Assignment/Images/unnamed.jpg");
+    background-image: url("/Images/unnamed.jpg");
     background-size: 20.1rem;
 
     background-position: 25% 75%;
@@ -122,7 +122,7 @@ body {
   }
   
   .img--test{
-    background-image: url("/Assignment/Images/images\ \(2\).jpg");
+    background-image: url("/Images/images\ \(2\).jpg");
     background-size: 26.1rem;
 
     background-position: 68% 75%;
@@ -150,7 +150,7 @@ body {
   /********** Story *************/
 
   .bubbles{
-    background-image: url("/Assignment/Images/bubbles.png");
+    background-image: url("/Images/bubbles.png");
     background-size: 48.7rem;
 
     background-position: 50% 50%;
@@ -198,7 +198,7 @@ body {
 
   .story--flex--image1{
     transform: translate(-46.7%, -15rem); 
-    background-image: url("/Assignment/Images/download\ \(1\).jpg");
+    background-image: url("/Images/download\ \(1\).jpg");
     background-size: 21rem;
 
     width: 20.6rem;
@@ -212,7 +212,7 @@ body {
   .story--flex--image2{
     transform: translate(7rem,21rem); 
 
-    background-image: url("/Assignment/Images/download\ \(2\).jpg");
+    background-image: url("/Images/download\ \(2\).jpg");
     background-size: 24rem;
 
     width: 20.6rem;
@@ -224,7 +224,7 @@ body {
   }
 
   .bubbles2{
-    background-image: url("/Assignment/Images/bubbles2.png");
+    background-image: url("/Images/bubbles2.png");
     background-size: 48.7rem;
 
     background-position: 50% 50%;
@@ -254,7 +254,7 @@ body {
   }
 
   .Forbidden--Butter{
-    background-image: url("/Assignment/Images/Untitled-2.png");
+    background-image: url("/Images/Untitled-2.png");
     background-size: 10rem;
 
     margin-left: auto;
@@ -308,7 +308,7 @@ body {
   }
 
   .Specials--image2{
-    background-image: url("/Assignment/Images/Untitled-3.png");
+    background-image: url("/Images/Untitled-3.png");
     background-size: 46.8rem;
 
     margin-left: auto;
@@ -320,7 +320,7 @@ body {
   }
 
   .Specials--image3{
-    background-image: url("/Assignment/Images/Untitled-4.png");
+    background-image: url("/Images/Untitled-4.png");
     background-size: 46.8rem;
 
     margin-left: auto;
@@ -403,7 +403,7 @@ body {
     padding:1rem;
     color: #000000;
     border: .2rem solid #000000;
-    background-image: url("/Assignment/Images/images.jpg");
+    background-image: url("/Images/images.jpg");
     background-position: 50% 50%;
     background-size: 35rem;
     border-radius: 10%;
