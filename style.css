@@ -122,7 +122,7 @@ body {
   }
   
   .img--test{
-    background-image: url("images(2).jpg");
+    background-image: url("images (2).jpg");
     background-size: 26.1rem;
 
     background-position: 68% 75%;
@@ -198,7 +198,7 @@ body {
 
   .story--flex--image1{
     transform: translate(-46.7%, -15rem); 
-    background-image: url("download(1).jpg");
+    background-image: url("download (1).jpg");
     background-size: 21rem;
 
     width: 20.6rem;
