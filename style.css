@@ -1,237 +1,534 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Landing page</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+  }
+  
+  /****** Container *******/
+  .container {
+    padding: 0 2rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid transparent;
 
-    <link rel="stylesheet" href="reset.css" >
-    <link rel="stylesheet" href="style.css" >
-  </head>
+  }
+  
+  /****** Header *******/
+  
+  .header {
+    background-color: #EEEEEE;
+    padding: .7rem ;
 
-  <body>
-  <!------------- Nav Bar ------------->  
-    <header>
-      <div class="header">
-        <div class="container">
-          <h2 class="sr-only">Site header</h2>
-          <div class="header--banner">
-            <img height="80px" src="/Images/Logo.png" alt="Company logo" />
-            <nav class="header--banner--nav">
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Locations</a></li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header>
-<!------------------HERO-------------------->
-    <main>
-        <h1 class="sr-only">Bakery Home Page</h1>
+  }
+  
+  .header--banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header--banner--img {
+    align-items: center;
+    height: 5rem;
+  }
 
-        <section>
-            <div class="hero">
-                <div class="hero--flex">
+  .header--banner--nav ul {
+    display: flex;
+    gap: 2rem;
 
-<!--The Image thing that went wrong-->    
-                    <div class = "test">
-                                            
-  <!--Top image --> <div class = "leftside">
-                      <div class="hero--flex--content" >
-                        <p>The Mamie Clafoutis boutique offers gourmet 
-  <!--Top text -->        products for your lunches, lunch breaks, 
-                          snacks, and coffee breaks.
-                      
-  <!--Bottom Text  -->    The tea room, located on the second floor, 
-                          offers a pleasant and comfortable setting in 
-                          order to fully appreciate Mamie's products.</p>
-                      </div>
-                      <div class = "img--bottom"><p></p></div>
-<!--Bottom image  <img class="img--bottom" src="/Images/unnamed.jpg" alt="Cafe shot" /> -->
-</div>
-<div class = "img--test"><p></p></div>
-  <!--Right image <img class="img--test" src="/Images/images (2).jpg" alt="Front door" /> -->
-                    </div>
-                    </div>
-                  
-                </div>
-            </div>
-        </section>
+    list-style-type:none;
+  }
 
-<!-----------------Story-------------------->
-<div class = "bubbles"><p></p></div>
+  .header--banner--nav li a {
 
-    <section>
-      <div class = "story">
-        <div class = "story--flex--image2">
-        </div>
-        <div class = "story--flex">
-          <div class = "textbox">
-            <h2>A story of savories and memories.</h2>
-            <p>Do you remember the desserts you cooked with your grandmother on 
-              weekends or during the holidays? That delicious smell coming out of her                 
-              kitchen when you came home from school? The brioche coming out of 
-              the oven that comforted you after an intense study day? Or again those 
-              Sunday mornings in your pajamas enjoying those warm crispy croissants?</p>
-            <p>Mamie Clafoutis brings back those tasty memories, 
-              with excellent recipes and the utmost simplicity.</p>
-          </div>
-          <div class = "story--flex--image1"></div>
-        </div>
-      </div>
-    </section>
+    color:#123456;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
 
-        <div class = "bubbles2"><p></p></div>
+  .header--banner--nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /****** Screen reader text *******/
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+  /********** Hero *************/
+  .hero{
+    border: 1px solid transparent;
+    background-color: #ddc4a6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero--flex--content {
+    background-image: url("/Assignment/Images/assignment2-image1.png");
+    background-size: 20.1rem;
 
-<!-----------------Specials-------------------->
+    width: 19.02rem;
+    height: 13.11rem;
 
-        <section>
-          <div class = "Specials">
-            <div class = "Specials--title">
-              <h2>Specials</h2>
-            </div>
-            <div class = "Specials--section1">
-              <div class = "Specials--section1--left">
-                <h3> Try to win a gold bar in one <br/> of our King's cakes!</h3>
-                <h6>GAME'S RULES</h6>
-                <div class = "Forbidden--Butter">
-                </div>
-               <h4>Here is the gold bar you can win! <br/>If differs from the coins by it's rectangular shape and it is much larger than the gold coins to collect!</h4>
-              </div>
-              <img height="442px" width = "350px" src="/Images/Untitled-1.png" alt="Cake" />
-            </div>
-            <div class = "Specials--Section2">
-              <div class = "Specials--image2">
-              </div>
-            </div>
-            <div class = "Specials--section3">
-              <div class = "Specials--image3">
-              </div>
-            </div>
-          </div>
-        </section>
+    padding-left: .5rem;
+    padding-right: .5rem;
 
-<!----------------- Cafes -------------------->
-        <section class = "Cafe">
-          <div class = "Cafe--section1">
-            <h2>Click and Collect</h2>
-            <h3>Order to pick up treats</h3>
-            <p>ORDER</p>
-          </div>
-          <div class = "Cafe--section2">
-            <div class = "Cafe--Bg"></div>
-            <h2>Cafes</h2>
-            <h3>Find shops near me</h3>
-            <p>Locations</p>
-          </div>
-          <div class = "Cafe--section3">
-            <h2>Delivery</h2>
-            <h3>Treat to your door</h3>
-            <p>SEE SHOPS</p>
-          </div>
-        </section>
+    border: 1px solid transparent;
+  }
+  
+  .hero--flex--title {
+    color:#000000;
+    font: sans-serif;
+    font-size: 1.3rem;
+    padding-top: 3rem;
 
-<!----------------- Break -------------------->
-      <section class = "Break">
-        <p> Break</p>
-      </section>
-<!----------------- Form -------------------->
-        <section class = "Form">
-          <div class=" FullForm">
-          <h1>Join our Newsletter for updates on recipes and baking tips.</h1>
-            <p>
-              Please use the following form to provide sign up.
-            </p>
-      
-            <form>
-              <label for="Name">Name...</label>
-              <input id="Name " 
-              name="Name"
-              type="text" required="required" />
-              <br/>
+  }
+  
+  .hero--flex--content p {
+    
+    color:#000000;
+    padding-top: 1.5rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+    line-height: 1.3;
+    margin: .4rem;
+    justify-content: center;
+    align-self: center;
 
-              <label for="Email">Email....</label>
-              <input id="Email" 
-              name="Email "
-              type="text" required="required" />
-              <br/>
+  }
 
-              <label for="dob">Date.....</label>
-              <input 
-              id="dob"
-              name="dob"
-              type="date">
-              <br/>
-      
-              <label for="happy">Have visted one of our stores. Left is yes. Right is no. Middle is invalid.</label>
-              <input type="range" id="happy"
-              name="happy" />
-              <br/><br/>
+  .img--bottom{
+    background-image: url("/Assignment/Images/unnamed.jpg");
+    background-size: 20.1rem;
+
+    background-position: 25% 75%;
+
+    width: 19.02rem;
+    height: 13.11rem;
+
+    padding-left: .5rem;
+    padding-right: .5rem;
+    border: 1px solid transparent;
+
+  }
+  
+  .img--test{
+    background-image: url("/Assignment/Images/images\ \(2\).jpg");
+    background-size: 26.1rem;
+
+    background-position: 68% 75%;
+    width: 19.02rem;
+    height: 26.32rem;
+
+    padding-left: .5rem;
+    padding-right: .5rem;
+    border: 1px solid transparent;
+
+  }
+
+  .test {
+    display: flex;
+
+    flex-direction: row;
+
+    border: 1px solid transparent;
+
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+  }
+
+  
+  /********** Story *************/
+
+  .bubbles{
+    background-image: url("/Assignment/Images/bubbles.png");
+    background-size: 48.7rem;
+
+    background-position: 50% 50%;
+    width: 48.7rem; 
+    height: 15rem;  
+    border: 1px solid transparent;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .story {
+    border: 1px solid transparent;
+    background-color: #f8dcdd;
+    margin-top: 0rem;
+    margin-right: auto;
+  }
+
+  .textbox{
+    color: #bb5a73;
+    display: flex;
+    flex-direction: column;
+
+    width: 20rem;
+    background-color: #fffaf5;
+    border: 1rem solid #bb5a73;
+    padding-left: .3rem;
+    padding-right: .3rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    transform: translate(48%, -9rem); 
+  }
+
+  .textbox h2{
+    font-size: 1rem;
+    line-height: 1rem;
+    align-self: center;
+  }
+
+  .textbox p{
+    font-size: 0.7rem;
+    text-align: center;
+  }
+
+  .story--flex--image1{
+    transform: translate(-46.7%, -15rem); 
+    background-image: url("/Assignment/Images/download\ \(1\).jpg");
+    background-size: 21rem;
+
+    width: 20.6rem;
+    height: 14rem;
+
+    border: 1rem solid #ddc4a6;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .story--flex--image2{
+    transform: translate(7rem,21rem); 
+
+    background-image: url("/Assignment/Images/download\ \(2\).jpg");
+    background-size: 24rem;
+
+    width: 20.6rem;
+    height: 14rem;
+
+    border: 1rem solid #b59b79;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bubbles2{
+    background-image: url("/Assignment/Images/bubbles2.png");
+    background-size: 48.7rem;
+
+    background-position: 50% 50%;
+    height: 12.6rem;  
+    border: 1px solid transparent;
+    width: 48.7rem; 
+  }
+
+    /********** Specials *************/
+
+  .Specials{
+    background-color: #fffaf5;
+    border: .1px solid transparent;
+  }
+
+  .Specials h2{
+    padding: 2rem;
+
+  }
+
+  .Specials--section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding: 1rem;
+  }
+
+  .Forbidden--Butter{
+    background-image: url("/Assignment/Images/Untitled-2.png");
+    background-size: 10rem;
+
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+    height: 10rem;  
+    width:10rem;
+    transform: translate(0,4rem); 
+
+  }
+
+  .Specials--section1--left{
+    display: flex;
+    flex-direction: column;
+
+    width: 25rem;
+    text-align: center;
 
 
-              <fieldset>
-                  <legend>How was you rate the site proformance? 1 star is terrible and 5 star is perfect </legend>
-                 
+    background-color: #f8dcdd;
+  }
 
-                  <input id="1 star"
-                  name="Rating" type="radio" />
-                  <label for="1 star">1 star</label>
-        
-                  <input id="2 stars"
-                  name="Rating" type="radio" />
-                  <label for="2 stars">2 stars</label>
-                  
-                  <input id="3 stars"
-                  name="Rating" type="radio" />
-                  <label for="3 stars">3 stars</label>
-      
-                  <input id="4 stars"
-                  name="Rating" type="radio" />
-                  <label for="4 stars">4 stars</label>
+  .Specials--section1 h6{
+    display: flex;
+    background-color: #bb5a73;
+    border: 1px solid #bb5a73;
+    border-radius: 30%;
+    font-size: 1rem;
 
-                  <input id="5 stars"
-                  name="Rating" type="radio" />
-                  <label for="5 stars">5 stars</label>
-      
-              </fieldset>
-      
-              <button type="reset">Clear form</button>
-              <button type="submit">Submit your response </button> 
-      
-            </form>
-          </div>
-        </section>
+    width: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    transform: translate(0,2rem); 
 
-<!----------------- Break -------------------->
-<section class = "Break">
-  <p> Break</p>
-</section>
+  }
 
-<!----------------- Footer -------------------->
-        <section>
-          <div class="Footer">
-            <div class="container">
-              <h2 class="sr-only">Site header</h2>
-              <div class="Footer--banner">
-                <img height="60px" src="/Images/Logo.png" alt="Company logo" />
-                <nav class="header--banner--nav">
-                  <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Job Opportunities</a></li>
-                    <li><a href="#">Legal Notice</a></li>
-                    <li><a href="#">Locations</a></li>
-                  </ul>
-                </nav>
-              </div>
-              <p>© 2023 https://www.mamieclafoutis.com/ LLC. All Rights Reserved.</p>
-            </div>
-          </div>
-        </section>
-    </main>
+  .Specials--section1 h3{
+    transform: translate(0,1rem); 
 
-</body>
-</html>
+  }
+  .Specials--section1 h4{
+    transform: translate(0,4rem); 
+    margin: 1rem;
+  }
+
+  .Specials--section2{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .Specials--image2{
+    background-image: url("/Assignment/Images/Untitled-3.png");
+    background-size: 46.8rem;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 46.8rem; 
+    height: 11.6rem;
+    border: .1px solid transparent;
+  }
+
+  .Specials--image3{
+    background-image: url("/Assignment/Images/Untitled-4.png");
+    background-size: 46.8rem;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 46.8rem; 
+    height: 15rem;
+
+    border: .1px solid transparent;
+  }
+
+  .Specials--section3{
+    padding:1rem;   
+    padding-bottom:5rem;   
+
+  }
+
+      /********** Cafe *************/
+
+  .Cafe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+
+    border-top: 2rem solid #b59b79;
+    border-bottom: 2rem solid #b59b79;
+
+    background-color: #ddc4a6 ;
+    
+    width: auto; 
+    height: 17rem;
+    z-index:0;
+  }
+
+  .Cafe--section1{
+    padding:1rem;
+    color: #bb5a73;
+    border: .2rem solid #000000;
+    background-color: #f8dcdd;
+    border-radius: 10%;
+
+    width: 12rem; 
+    height: 13rem;
+    text-align: center;
+    transform: translate(0,-2rem); 
+
+  }
+
+  .Cafe--section1 h2{
+    text-decoration-line: underline;  
+
+  }
+
+  .Cafe--section1 p{
+    transform: translate(0,0.5rem); 
+    border: .1rem solid #000000;
+    color: #bb5a73;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 7rem;   
+  
+    font-size: 1rem;
+    font-weight: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+  
+   }
+
+  .Cafe--Bg{
+    background-color: #f8dcdd;
+    opacity: 100%;
+    width: 10rem; 
+    height: 6.5rem;
+    transform: translate(0,1.3rem); 
+    opacity: 70%;
+  }
+
+  .Cafe--section2{
+    padding:1rem;
+    color: #000000;
+    border: .2rem solid #000000;
+    background-image: url("/Assignment/Images/images.jpg");
+    background-position: 50% 50%;
+    background-size: 35rem;
+    border-radius: 10%;
+
+    width: 12rem; 
+    height: 13rem;
+    text-align: center;
+    opacity: 100%;
+    transform: translate(0,-2rem); 
+
+  }
+
+  .Cafe--section2 h2{
+    text-decoration-line: underline;  
+    opacity: 100%;
+    transform: translate(0,-5.5rem); 
+
+  }
+
+  .Cafe--section2 h3{
+    text-decoration-line: underline;  
+    opacity: 100%;
+    transform: translate(0,-5.5rem); 
+
+  }
+
+ .Cafe--section2 p{
+  transform: translate(0,-3rem); 
+  border: .1rem solid #000000;
+  background-color: #bb5a73;
+  border-radius: 50%;
+  width: 7rem;   
+
+  font-size: 1rem;
+  font-weight: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+
+ }
+
+  .Cafe--section3{
+    padding:1rem;
+    color: #fffaf5;
+    border: .2rem solid #000000;
+    background-color: #bb5a73;
+    border-radius: 10%;
+
+    width: 12rem; 
+    height: 13rem;
+    text-align: center;
+    transform: translate(0,-2rem); 
+
+  }
+
+  .Cafe--section3 h2{
+    text-decoration-line: underline;  
+
+  }
+
+  .Cafe--section3 p{
+    transform: translate(0,3rem); 
+    border: .01rem solid transparent;
+    color: #bb5a73;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 7rem;   
+  
+    font-size: 1rem;
+    font-weight: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+  /********** Break *************/
+
+  .Break{
+    height: 1rem;
+  }
+
+  .Break p {
+    opacity: 0%;
+  }
+   
+/********** Form *************/
+
+  .FullForm{
+    justify-content: space-around;
+    border: .01rem solid transparent;
+    background-color: #f8dcdd;
+    width: 44rem; 
+    margin-left: auto;
+    margin-right: auto;
+    margin: 2rem;
+  }
+
+/********** Footer *************/
+  .Footer{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EEEEEE;
+    padding: .7rem ;
+  }
+  
+  .Footer--banner {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .Footer--banner--nav ul {
+    display: flex;
+    gap: 2rem;
+
+    list-style-type:none;
+  }
+
+  .Footer--banner--nav li a {
+
+    color:#123456;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+
+  .container{
+    justify-content: center;
+  }
+
