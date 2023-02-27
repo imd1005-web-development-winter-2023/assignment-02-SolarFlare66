@@ -1,29 +1,237 @@
 <!DOCTYPE html>
-<html lang="en-ca">
+<html>
   <head>
-    <!-- Set the page title -->
-    <title>Assignment 02</title>
-
-    <!-- Set the charset we're using to UTF-8 -->
+    <title>Landing page</title>
     <meta charset="UTF-8" />
-
-    <!-- Set the screens default zoom / scale to 1 -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
-    <!-- Specifies the document mode for Internet Explorer -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- We are using a CSS Reset file to standardize browser default css -->
-    <link rel="stylesheet" href="reset.css" />
-
-    <!-- This is where all of our awesome CSS code goes -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" >
+    <link rel="stylesheet" href="style.css" >
   </head>
+
   <body>
-    <!--
+  <!------------- Nav Bar ------------->  
+    <header>
+      <div class="header">
+        <div class="container">
+          <h2 class="sr-only">Site header</h2>
+          <div class="header--banner">
+            <img height="80px" src="Logo.png" alt="Company logo" />
+            <nav class="header--banner--nav">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Locations</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+<!------------------HERO-------------------->
+    <main>
+        <h1 class="sr-only">Bakery Home Page</h1>
 
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+        <section>
+            <div class="hero">
+                <div class="hero--flex">
 
-    -->
-  </body>
+<!--The Image thing that went wrong-->    
+                    <div class = "test">
+                                            
+  <!--Top image --> <div class = "leftside">
+                      <div class="hero--flex--content" >
+                        <p>The Mamie Clafoutis boutique offers gourmet 
+  <!--Top text -->        products for your lunches, lunch breaks, 
+                          snacks, and coffee breaks.
+                      
+  <!--Bottom Text  -->    The tea room, located on the second floor, 
+                          offers a pleasant and comfortable setting in 
+                          order to fully appreciate Mamie's products.</p>
+                      </div>
+                      <div class = "img--bottom"><p></p></div>
+<!--Bottom image  <img class="img--bottom" src="unnamed.jpg" alt="Cafe shot" /> -->
+</div>
+<div class = "img--test"><p></p></div>
+  <!--Right image <img class="img--test" src="images (2).jpg" alt="Front door" /> -->
+                    </div>
+                    </div>
+                  
+                </div>
+            </div>
+        </section>
+
+<!-----------------Story-------------------->
+<div class = "bubbles"><p></p></div>
+
+    <section>
+      <div class = "story">
+        <div class = "story--flex--image2">
+        </div>
+        <div class = "story--flex">
+          <div class = "textbox">
+            <h2>A story of savories and memories.</h2>
+            <p>Do you remember the desserts you cooked with your grandmother on 
+              weekends or during the holidays? That delicious smell coming out of her                 
+              kitchen when you came home from school? The brioche coming out of 
+              the oven that comforted you after an intense study day? Or again those 
+              Sunday mornings in your pajamas enjoying those warm crispy croissants?</p>
+            <p>Mamie Clafoutis brings back those tasty memories, 
+              with excellent recipes and the utmost simplicity.</p>
+          </div>
+          <div class = "story--flex--image1"></div>
+        </div>
+      </div>
+    </section>
+
+        <div class = "bubbles2"><p></p></div>
+
+<!-----------------Specials-------------------->
+
+        <section>
+          <div class = "Specials">
+            <div class = "Specials--title">
+              <h2>Specials</h2>
+            </div>
+            <div class = "Specials--section1">
+              <div class = "Specials--section1--left">
+                <h3> Try to win a gold bar in one <br/> of our King's cakes!</h3>
+                <h6>GAME'S RULES</h6>
+                <div class = "Forbidden--Butter">
+                </div>
+               <h4>Here is the gold bar you can win! <br/>If differs from the coins by it's rectangular shape and it is much larger than the gold coins to collect!</h4>
+              </div>
+              <img height="442px" width = "350px" src="Untitled-1.png" alt="Cake" />
+            </div>
+            <div class = "Specials--Section2">
+              <div class = "Specials--image2">
+              </div>
+            </div>
+            <div class = "Specials--section3">
+              <div class = "Specials--image3">
+              </div>
+            </div>
+          </div>
+        </section>
+
+<!----------------- Cafes -------------------->
+        <section class = "Cafe">
+          <div class = "Cafe--section1">
+            <h2>Click and Collect</h2>
+            <h3>Order to pick up treats</h3>
+            <p>ORDER</p>
+          </div>
+          <div class = "Cafe--section2">
+            <div class = "Cafe--Bg"></div>
+            <h2>Cafes</h2>
+            <h3>Find shops near me</h3>
+            <p>Locations</p>
+          </div>
+          <div class = "Cafe--section3">
+            <h2>Delivery</h2>
+            <h3>Treat to your door</h3>
+            <p>SEE SHOPS</p>
+          </div>
+        </section>
+
+<!----------------- Break -------------------->
+      <section class = "Break">
+        <p> Break</p>
+      </section>
+<!----------------- Form -------------------->
+        <section class = "Form">
+          <div class=" FullForm">
+          <h1>Join our Newsletter for updates on recipes and baking tips.</h1>
+            <p>
+              Please use the following form to provide sign up.
+            </p>
+      
+            <form>
+              <label for="Name">Name...</label>
+              <input id="Name " 
+              name="Name"
+              type="text" required="required" />
+              <br/>
+
+              <label for="Email">Email....</label>
+              <input id="Email" 
+              name="Email "
+              type="text" required="required" />
+              <br/>
+
+              <label for="dob">Date.....</label>
+              <input 
+              id="dob"
+              name="dob"
+              type="date">
+              <br/>
+      
+              <label for="happy">Have visted one of our stores. Left is yes. Right is no. Middle is invalid.</label>
+              <input type="range" id="happy"
+              name="happy" />
+              <br/><br/>
+
+
+              <fieldset>
+                  <legend>How was you rate the site proformance? 1 star is terrible and 5 star is perfect </legend>
+                 
+
+                  <input id="1 star"
+                  name="Rating" type="radio" />
+                  <label for="1 star">1 star</label>
+        
+                  <input id="2 stars"
+                  name="Rating" type="radio" />
+                  <label for="2 stars">2 stars</label>
+                  
+                  <input id="3 stars"
+                  name="Rating" type="radio" />
+                  <label for="3 stars">3 stars</label>
+      
+                  <input id="4 stars"
+                  name="Rating" type="radio" />
+                  <label for="4 stars">4 stars</label>
+
+                  <input id="5 stars"
+                  name="Rating" type="radio" />
+                  <label for="5 stars">5 stars</label>
+      
+              </fieldset>
+      
+              <button type="reset">Clear form</button>
+              <button type="submit">Submit your response </button> 
+      
+            </form>
+          </div>
+        </section>
+
+<!----------------- Break -------------------->
+<section class = "Break">
+  <p> Break</p>
+</section>
+
+<!----------------- Footer -------------------->
+        <section>
+          <div class="Footer">
+            <div class="container">
+              <h2 class="sr-only">Site header</h2>
+              <div class="Footer--banner">
+                <img height="60px" src="Logo.png" alt="Company logo" />
+                <nav class="header--banner--nav">
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Job Opportunities</a></li>
+                    <li><a href="#">Legal Notice</a></li>
+                    <li><a href="#">Locations</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <p>© 2023 https://www.mamieclafoutis.com/ LLC. All Rights Reserved.</p>
+            </div>
+          </div>
+        </section>
+    </main>
+
+</body>
 </html>
