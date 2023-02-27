@@ -73,7 +73,7 @@ body {
   }
   
   .hero--flex--content {
-    background-image: url("assignment2-image1.png");
+    background-image: url("/Assignment/Images/assignment2-image1.png");
     background-size: 20.1rem;
 
     width: 19.02rem;
@@ -107,7 +107,7 @@ body {
   }
 
   .img--bottom{
-    background-image: url("unnamed.jpg");
+    background-image: url("/Assignment/Images/unnamed.jpg");
     background-size: 20.1rem;
 
     background-position: 25% 75%;
@@ -122,7 +122,7 @@ body {
   }
   
   .img--test{
-    background-image: url("images\ \(2\).jpg");
+    background-image: url("/Assignment/Images/images\ \(2\).jpg");
     background-size: 26.1rem;
 
     background-position: 68% 75%;
@@ -150,7 +150,7 @@ body {
   /********** Story *************/
 
   .bubbles{
-    background-image: url("bubbles.png");
+    background-image: url("/Assignment/Images/bubbles.png");
     background-size: 48.7rem;
 
     background-position: 50% 50%;
@@ -197,8 +197,8 @@ body {
   }
 
   .story--flex--image1{
-    transform: translate(-47.5%, -19rem); 
-    background-image: url("download\ \(1\).jpg");
+    transform: translate(-46.7%, -15rem); 
+    background-image: url("/Assignment/Images/download\ \(1\).jpg");
     background-size: 21rem;
 
     width: 20.6rem;
@@ -212,7 +212,7 @@ body {
   .story--flex--image2{
     transform: translate(7rem,21rem); 
 
-    background-image: url("download\ \(2\).jpg");
+    background-image: url("/Assignment/Images/download\ \(2\).jpg");
     background-size: 24rem;
 
     width: 20.6rem;
@@ -224,7 +224,7 @@ body {
   }
 
   .bubbles2{
-    background-image: url("bubbles2.png");
+    background-image: url("/Assignment/Images/bubbles2.png");
     background-size: 48.7rem;
 
     background-position: 50% 50%;
@@ -254,7 +254,7 @@ body {
   }
 
   .Forbidden--Butter{
-    background-image: url("Untitled-2.png");
+    background-image: url("/Assignment/Images/Untitled-2.png");
     background-size: 10rem;
 
     margin-left: auto;
@@ -263,7 +263,7 @@ body {
 
     height: 10rem;  
     width:10rem;
-    transform: translate(0,-2.2rem); 
+    transform: translate(0,4rem); 
 
   }
 
@@ -289,7 +289,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
-    transform: translate(0, 0rem); 
+    transform: translate(0,2rem); 
 
   }
 
@@ -298,7 +298,7 @@ body {
 
   }
   .Specials--section1 h4{
-    transform: translate(0,-1.5rem); 
+    transform: translate(0,4rem); 
     margin: 1rem;
   }
 
@@ -308,7 +308,7 @@ body {
   }
 
   .Specials--image2{
-    background-image: url("Untitled-3.png");
+    background-image: url("/Assignment/Images/Untitled-3.png");
     background-size: 46.8rem;
 
     margin-left: auto;
@@ -320,7 +320,7 @@ body {
   }
 
   .Specials--image3{
-    background-image: url("Untitled-4.png");
+    background-image: url("/Assignment/Images/Untitled-4.png");
     background-size: 46.8rem;
 
     margin-left: auto;
@@ -352,7 +352,7 @@ body {
     background-color: #ddc4a6 ;
     
     width: auto; 
-    height: 15.4rem;
+    height: 17rem;
     z-index:0;
   }
 
@@ -366,6 +366,7 @@ body {
     width: 12rem; 
     height: 13rem;
     text-align: center;
+    transform: translate(0,-2rem); 
 
   }
 
@@ -392,7 +393,7 @@ body {
   .Cafe--Bg{
     background-color: #f8dcdd;
     opacity: 100%;
-    width: 8rem; 
+    width: 10rem; 
     height: 6.5rem;
     transform: translate(0,1.3rem); 
     opacity: 70%;
@@ -402,7 +403,7 @@ body {
     padding:1rem;
     color: #000000;
     border: .2rem solid #000000;
-    background-image: url("images.jpg");
+    background-image: url("/Assignment/Images/images.jpg");
     background-position: 50% 50%;
     background-size: 35rem;
     border-radius: 10%;
@@ -411,6 +412,7 @@ body {
     height: 13rem;
     text-align: center;
     opacity: 100%;
+    transform: translate(0,-2rem); 
 
   }
 
@@ -452,6 +454,8 @@ body {
     width: 12rem; 
     height: 13rem;
     text-align: center;
+    transform: translate(0,-2rem); 
+
   }
 
   .Cafe--section3 h2{
@@ -489,7 +493,7 @@ body {
     justify-content: space-around;
     border: .01rem solid transparent;
     background-color: #f8dcdd;
-    width: 46.8rem; 
+    width: 44rem; 
     margin-left: auto;
     margin-right: auto;
     margin: 2rem;
@@ -527,4 +531,3 @@ body {
   .container{
     justify-content: center;
   }
-
